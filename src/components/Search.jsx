@@ -3,6 +3,7 @@ export default function () {
   return (
     <div>
       <input value={query} type="text" />
+      <input value={query} type="text" />
     </div>
   );
 }
