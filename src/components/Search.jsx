@@ -11,7 +11,6 @@ export default function ({ foodData, setFoodData }) {
       // console.log("useEffect Called");
       const response = await fetch(`${URL}?query=${query}&apiKey=${API_KEY}`);
       const data = await response.json();
-
       console.log(data.results);
       setFoodData(data.results);
     }
