@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./foodDetails.module.css";
 import ItemList from "./ItemList";
 
+
 export default function FoodDetails({ foodId }) {
   const [food, setFood] = useState({});
   const [isLoading, setIsLoading] = useState(true);
